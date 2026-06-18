@@ -1,5 +1,9 @@
 # Interview Pipeline Tracker
 
+> 日本語版READMEは [README.ja.md](./README.ja.md) をご覧ください。
+
+> **Just want to try the app?** No coding required — see the [Quickstart Guide](./QUICKSTART_GUIDE.md) to download and install in minutes.
+
 A lightweight desktop app for tracking active job interview pipelines. Never miss a scheduled interview or casual conversation (カジュアル面談) — entries are sorted by upcoming date, filterable by stage, and a background reminder engine fires native OS notifications before each event.
 
 Fully local: no cloud account, no server, no email. Just a SQLite database on your machine.
