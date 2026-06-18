@@ -1,5 +1,7 @@
 # Installation Guide — Interview Pipeline Tracker
 
+> 日本語版は [QUICKSTART_GUIDE_JA.md](./QUICKSTART_GUIDE_JA.md) をご覧ください。
+
 This guide is for anyone who just wants to install and use the app. No coding, no terminal, no developer tools required.
 
 ---
