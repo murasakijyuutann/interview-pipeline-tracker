@@ -61,7 +61,12 @@ export function DayModal({
       </Modal>
 
       {addOpen && (
-        <Modal title="Add Interview" onClose={() => setAddOpen(false)}>
+        <Modal
+          title="Add Interview"
+          layer={1}
+          closeOnBackdropClick={false}
+          onClose={() => setAddOpen(false)}
+        >
           <InterviewForm
             mode="add"
             initialScheduledAt={prefilledAt}

@@ -46,7 +46,7 @@ export function InterviewListItem({ interview, onUpdate, onDelete }: InterviewLi
       </div>
 
       {editing && (
-        <Modal title="Edit Interview" onClose={() => setEditing(false)}>
+        <Modal title="Edit Interview" closeOnBackdropClick={false} onClose={() => setEditing(false)}>
           <InterviewForm
             mode="edit"
             initial={interview}

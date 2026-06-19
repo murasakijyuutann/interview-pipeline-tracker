@@ -85,7 +85,7 @@ export default function App() {
       </div>
 
       {addOpen && (
-        <Modal title="Add Interview" onClose={() => setAddOpen(false)}>
+        <Modal title="Add Interview" closeOnBackdropClick={false} onClose={() => setAddOpen(false)}>
           <InterviewForm
             mode="add"
             onSubmit={async (data) => { await add(data); setAddOpen(false); }}
